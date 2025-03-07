@@ -105,13 +105,13 @@ pip install cx_Oracle psycopg2-binary Faker
 	```
 * **Data Generated**:
 
-**Departments**: 20 records with department names (e.g., "Inc Dept") and locations using Faker.
+	**Departments**: 20 records with department names (e.g., "Inc Dept") and locations using Faker.
 
-**Projects**: 100 records with project names (e.g., "Catch Phrase"), start dates, and budgets (between $50,000 and $1,000,000).
+	**Projects**: 100 records with project names (e.g., "Catch Phrase"), start dates, and budgets (between $50,000 and $1,000,000).
 
-**Employees**: 100,000 records with names, emails (emp<Id>@example.com), hire dates (within the last 5 years), salaries (between $30,000 and $120,000), and department IDs.
+	**Employees**: 100,000 records with names, emails (emp<Id>@example.com), hire dates (within the last 5 years), salaries (between $30,000 and $120,000), and department IDs.
 
-**Employee_Projects**: 200,000 records linking employees to projects with random hours worked (between 10 and 500 hours).
+	**Employee_Projects**: 200,000 records linking employees to projects with random hours worked (between 10 and 500 hours).
 
 * Details:
     * The script uses the `Faker` library to generate realistic data.
