@@ -1,0 +1,9 @@
+# .gitignore 
+# Ignore Python bytecode 
+__pycache__/ 
+*.pyc 
+# Ignore credentials and local configs 
+*.env 
+# Ignore database dumps 
+*.sql 
+/ora2postgres_env
